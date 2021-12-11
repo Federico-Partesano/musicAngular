@@ -1,0 +1,17 @@
+<div class="home-container">
+  <div class="d-flex flex-column p-5">
+    <div class="container-title position-relative">
+      <h2 class="position-absolute fixed-bottom d-inline font-weight-bold">
+        Musica
+      </h2>
+    </div>
+    <div class="container-space position-relative"></div>
+    <div class="py-3">
+      <div>
+        <div *ngFor="let res of result" class="my-card">
+          <p style="color: white">{{ getText() }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
